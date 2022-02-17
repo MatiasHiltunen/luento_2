@@ -8,6 +8,9 @@ import axios from 'axios'
 // Lisättiin async avainsana mukaan jolla saadaan funktion sisällä 'await' käyttöön.
 // Await odottelee asynkronisen operaation valmistumisen, kuten tässä HTTP-rajapintakyselyn, 
 // ja jatkaa sitten koodin suorittamista funktion sisällä.   
+// Kurssin materiaaleista lisää funktiosta ja asynkronisuudesta:
+// https://wojsdocs.wp-uc.com/materiaalit/#function
+// https://wojsdocs.wp-uc.com/materiaalit/#async-promises
 export const getJokes = async() => {
 
     // await axios.get() palauttaa Promisen, Promise on ei-tosiaikainen operaatio ja sen valmistuminen täytyy 
